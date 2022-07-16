@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Internet Content</title>
+</head>
+
+<main>
+    <h1 class="main-center">
+        Welcome to Random Internet Content.
+    </h1>
+    <p class="desc-center">
+        The place where you can anonymously share anything to another <br>
+            anonymous user.
+    </p>
+    <form class="getcontent-button" action="getcontent.php">
+        <button type="submit" class="content-button">Read Random Stuff</button>
+    </form>
+    <img src="globe.webp">
+    <form class="type-box" action="process-form.php" method="post" autocomplete="off">
+        <label for="content"></label>
+        <p>Enter anything below.</p>
+        <input type="text" id= "content" name="content" placeholder="Start typing here." required>
+        <button type="submit">Submit</button>
+        <select id="nsfw" name="nsfw">
+            <option value="1">sfw</option>
+            <option value="2">nsfw</option>
+        </select>
+    </form> 
+</main>

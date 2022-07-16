@@ -1,0 +1,41 @@
+main h1.main-center, main > p.desc-center, main form.type-box{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+main form.getcontent-button{
+    box-sizing: content-box;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+main p.random-text{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+main form.getcontent-button-sfw{
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+main form.getcontent-button-nsfw{
+    border: none;
+    color: white;
+    text-align: center;
+}
